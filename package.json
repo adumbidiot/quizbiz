@@ -1,0 +1,14 @@
+{
+  "name": "quizbiz",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "author": "adumbidiot",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
+}
