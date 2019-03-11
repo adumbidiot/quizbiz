@@ -22,10 +22,13 @@ class Socket {
 		this.oncode(this.code, !data.error);
 		this.idle = true;
 		if(!data.error){
+			/*
 			let s = '';
 			for(var i = 0; i != data.len(); i++){
 				s += String.charCodeAt(s);
 			}
+			*/
+			
 		}
 	}
 	
