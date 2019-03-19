@@ -1,5 +1,5 @@
 const {Socket, padNum, findCode} = require('./index.js');
 
-findCode(12, function(c){
+findCode(21, function(c){
 	console.log(c);
 });

@@ -19,9 +19,9 @@ class Socket {
 	}
 	
 	handleResponse(data){
-		this.oncode(this.code, !data.error);
+		this.oncode(this.code, data.charCodeAt(0) != 186);
 		this.idle = true;
-		//console.log(data.charCodeAt(0));
+		//console.log(data.length);
 		if(data.charCodeAt(0) != 186){
 			/*
 			let s = '';
